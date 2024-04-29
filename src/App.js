@@ -134,4 +134,5 @@ const App = ({ signOut }) => {
   );
 };
 
-export default withAuthenticator(App);
+//export default withAuthenticator(App);
+export default withAuthenticator(Profile, { hideSignUp: true });
